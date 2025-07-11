@@ -129,16 +129,10 @@ alias swagger="docker run --rm -it  --user $(id -u):$(id -g) -e GOPATH=$HOME/go:
 alias up="sh ~/up.sh"
 
 
-# alias restart
-alias restart_soft="~/astrolik_project/base/Tools/scripts/restart.sh dev"
-alias restart_hard="~/astrolik_project/base/Tools/scripts/restart.sh dev hard"
-
-
 command -v vg >/dev/null 2>&1 && eval "$(vg eval --shell zsh)"
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
-alias ast_user_project='cd ~/astrolik_project/base/api.astrolink.com.br/ASTUser && export GOPATH=/Users/pgaliotti/astrolik_project/base/api.astrolink.com.br/ASTUser'
 
 autoload -U compinit && compinit
 

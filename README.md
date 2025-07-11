@@ -5,7 +5,7 @@ Backup e setup rápido das minhas configurações de terminal (Zsh, Powerlevel10
 ## Instalação rápida
 
 ```bash
-git clone https://github.com/seuusuario/dotfiles.git
+git clone git@github.com:phgaliotti/terminal-setup.git
 cd terminal-setup
 ./setup.sh
 ```
